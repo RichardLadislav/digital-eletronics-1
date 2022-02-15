@@ -8,6 +8,6 @@
 3. treci
 * nestvrty
 5. tatat
-..6. kluce 
+*6. kluce 
 (https://cs.wikipedia.org/wiki/Tu%C4%8D%C5%88%C3%A1ci)
 
