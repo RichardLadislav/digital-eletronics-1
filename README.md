@@ -6,7 +6,7 @@
 1. prvy
 2. druhy
 3. treci
-..* nestvrty
+* nestvrty
 5. tatat
 ..6. kluce 
 
