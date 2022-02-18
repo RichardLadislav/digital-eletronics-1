@@ -1,4 +1,4 @@
-# Lab 1: RICHARD LADISLAV tutu
+# Lab 1: RICHARD LADISLAV 
 
 ### De Morgan's laws
 
