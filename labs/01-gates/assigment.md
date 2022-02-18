@@ -14,7 +14,7 @@ architecture dataflow of gates is
 begin
     f_org_o  <= (not(b_i) and a_i) or (not(c_i) and not(b_i));
     f_nand_o <= (not(b_i) nand a_i) nand (not(c_i) nand not(b_i)); 
-    f_nor_o  <= (((b_i) nor not(a_i)) or ((c_i) nor (b_i)));  
+    f_nor_o  <= not (((b_i) nor not(a_i)) nor ((c_i) nor (b_i)));  
     f_dist1  <= (a_i and b_i) or (a_i and c_i);
     f_dist2  <= a_i  and (b_i or c_i);
 end architecture dataflow;
