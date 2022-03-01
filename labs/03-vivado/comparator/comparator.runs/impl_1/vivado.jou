@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Mar  1 13:55:33 2022
+# Process ID: 480
+# Current directory: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.runs/impl_1
+# Command line: vivado.exe -log comparator_2bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source comparator_2bit.tcl -notrace
+# Log file: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.runs/impl_1/comparator_2bit.vdi
+# Journal file: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source comparator_2bit.tcl -notrace

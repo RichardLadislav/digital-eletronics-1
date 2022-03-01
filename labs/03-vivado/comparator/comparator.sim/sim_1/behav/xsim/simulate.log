@@ -1,0 +1,20 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_comparator_2bit/p_stimulus  File: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
+Note: Stimulus process finished
+Time: 100 ns  Iteration: 0  Process: /tb_comparator_2bit/p_stimulus  File: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
+Note: Stimulus process started
+Time: 100 ns  Iteration: 0  Process: /tb_comparator_2bit/p_stimulus  File: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
+Note: Stimulus process started
+Time: 200 ns  Iteration: 0  Process: /tb_comparator_2bit/p_stimulus  File: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
+Note: Stimulus process finished
+Time: 300 ns  Iteration: 0  Process: /tb_comparator_2bit/p_stimulus  File: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
+Note: Stimulus process started
+Time: 300 ns  Iteration: 0  Process: /tb_comparator_2bit/p_stimulus  File: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
+Note: Stimulus process finished
+Time: 400 ns  Iteration: 0  Process: /tb_comparator_2bit/p_stimulus  File: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
+Note: Stimulus process started
+Time: 400 ns  Iteration: 0  Process: /tb_comparator_2bit/p_stimulus  File: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
+Note: Stimulus process finished
+Time: 500 ns  Iteration: 0  Process: /tb_comparator_2bit/p_stimulus  File: D:/Documents/xladis00/digital-eletronics-1/labs/03-vivado/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
