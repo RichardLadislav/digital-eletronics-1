@@ -5,6 +5,14 @@
 1. Listing of VHDL architecture from source file `mux_3bit_4to1.vhd`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
+entity multiplexer is
+    Port ( sel_i : in  STD_LOGIC_VECTOR ( 1 downto 0);
+           a_i   : in  STD_LOGIC_VECTOR (3 - 1 downto 0);
+           b_i   : in  STD_LOGIC_VECTOR (3 - 1 downto 0);
+           c_i   : in  STD_LOGIC_VECTOR (3 - 1 downto 0);
+           d_i   : in  STD_LOGIC_VECTOR (3 - 1 downto 0);
+           f_o   : out STD_LOGIC_VECTOR (1 downto 0));
+end multiplexer;
 architecture Behavioral of mux_3bit_4to1 is
 begin
 
