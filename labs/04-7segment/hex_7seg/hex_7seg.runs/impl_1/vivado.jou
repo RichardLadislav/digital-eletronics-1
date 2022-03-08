@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Mar  8 13:37:03 2022
+# Process ID: 1520
+# Current directory: D:/Documents/xladis00/digital-eletronics-1/labs/04-7segment/hex_7seg/hex_7seg.runs/impl_1
+# Command line: vivado.exe -log hex_7seg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source hex_7seg.tcl -notrace
+# Log file: D:/Documents/xladis00/digital-eletronics-1/labs/04-7segment/hex_7seg/hex_7seg.runs/impl_1/hex_7seg.vdi
+# Journal file: D:/Documents/xladis00/digital-eletronics-1/labs/04-7segment/hex_7seg/hex_7seg.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source hex_7seg.tcl -notrace
