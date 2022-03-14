@@ -1,7 +1,8 @@
 
  | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | ![rising](images/eq_uparrow.png) | 0 | 0 |  |  |
+   | ![risisna](https://user-images.githubusercontent.com/99683944/158197026-9bdd2bec-cc47-4dd7-89dd-998b5cce394d.png)
+ | 0 | 0 |  |  |
    | ![rising](images/eq_uparrow.png) | 0 | 1 |  |  |
    | ![rising](images/eq_uparrow.png) | 1 |  |  |  |
    | ![rising](images/eq_uparrow.png) | 1 |  |  |  |
