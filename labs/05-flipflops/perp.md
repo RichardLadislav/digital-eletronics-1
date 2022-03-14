@@ -23,3 +23,5 @@
    | rising | 0 | 1 | 1 | Nochange |
    | rising | 1 | 0 | 1 | Invert |
    | rising | 1 | 1 | 0 | Invert |
+
+![big man](https://user-images.githubusercontent.com/99683944/158199185-abd50713-6a69-47d3-b8c2-75409b6b0dfa.png)
