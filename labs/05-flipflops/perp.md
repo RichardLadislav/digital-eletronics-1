@@ -1,10 +1,10 @@
 
  | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | rising | 0 | 0 | 0 | (q n+1) has the same level as d |
-   | rising | 0 | 1 | 0 | (q n+1) has the same level as d |
-   | rising | 1 | 0 | 1 | (q n+1) has the same level as d |
-   | rising | 1 | 1 | 1 | (q n+1) has the same level as d |
+   | rising | 0 | 0 | 0 | 'q(n+1)' has the same level as 'd' |
+   | rising | 0 | 1 | 0 | 'q(n+1)' has the same level as 'd' |
+   | rising | 1 | 0 | 1 | 'q(n+1)' has the same level as 'd' |
+   | rising | 1 | 1 | 1 | 'q(n+1)' has the same level as 'd' |
 
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-: | :-- |
