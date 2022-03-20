@@ -1,5 +1,6 @@
 
 ![take_schema_celkem_rozkosne](https://user-images.githubusercontent.com/99683944/159160557-ea528efd-53ae-46d8-a0b6-6683855ed471.png)
+ 
  | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
    | :-: | :-: | :-: | :-: |
    | 2&nbsp;ms | 200 000 | `x"3_0d40"` | `b"0011_0000_1101_0100_0000"` |
