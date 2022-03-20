@@ -7,7 +7,7 @@ Lab 6: Richard Ladisav
     Always use syntax highlighting, meaningful comments, and follow VHDL
     guidelines:
 
-``` {.vhdl}
+``` .vhdl
     --------------------------------------------------------
     -- p_cnt_up_down:
     -- Clocked process with synchronous reset which implements
