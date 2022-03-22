@@ -34,7 +34,8 @@ Lab 6: Richard Ladisav
     display all inputs and outputs (display the inputs at the top of the
     image, the outputs below them) at the appropriate time scale!
 
-    ![your figure]()
+    ![up_dwn_vlknky](https://user-images.githubusercontent.com/99683944/159487451-b3800321-1f80-4f2b-b76f-87cce4e83498.png)
+
 
 ### Two counters
 
