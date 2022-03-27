@@ -24,7 +24,7 @@ Lab 6: Richard Ladisav
 			if(cnt_up_i = '1') then
 			   s_cnt_local <= s_cnt_local + 1;
 			   
-               		 elseif (cnt_up_i = '0') then
+               		 elsif (cnt_up_i = '0') then
                 			s_cnt_local <= s_cnt_local - 1;                
                 
             end if;
