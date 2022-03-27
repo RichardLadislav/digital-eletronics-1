@@ -47,4 +47,5 @@ Lab 6: Richard Ladisav
     on a computer or by hand. Always name all inputs, outputs,
     components and internal signals!
 
-    ![your figure]()
+![ctc_a_7seg](https://user-images.githubusercontent.com/99683944/160281241-7faf89a2-5fe6-4c07-b499-fc9e3fb49765.png)
+
