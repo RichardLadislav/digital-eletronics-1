@@ -8,7 +8,7 @@ Lab 7: Richard Ladislav
     guidelines:
 
 ```vhdl 
-p_mux : process(clk)
+    p_mux : process(clk)
     begin
         if rising_edge(clk) then
             if (reset = '1') then
