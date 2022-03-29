@@ -7,7 +7,8 @@ Lab 7: Richard Ladislav
     syntax highlighting, meaningful comments, and follow VHDL
     guidelines:
 
-```  p_mux : process(clk)
+```vhdl 
+p_mux : process(clk)
     begin
         if rising_edge(clk) then
             if (reset = '1') then
