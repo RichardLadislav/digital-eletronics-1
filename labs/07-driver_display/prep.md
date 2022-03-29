@@ -1,3 +1,7 @@
+
+![take_schema_celkem_rozkosne](https://user-images.githubusercontent.com/99683944/160564019-e72d084f-5f0f-4d6e-b011-6904a4819c2f.png)
+
+
 ``` javascript
 {
 signal:
@@ -26,3 +30,4 @@ head:
 },
 }
 ```
+![vlna JPEG](https://user-images.githubusercontent.com/99683944/160563935-00ebd623-fc0f-4459-bf0f-63f580d67f17.png)
