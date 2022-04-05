@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Mar 29 13:52:42 2022
+# Process ID: 13012
+# Current directory: D:/Documents/xladis00/digital-eletronics-1/labs/06-counter/counter/counter.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent504 D:\Documents\xladis00\digital-eletronics-1\labs\06-counter\counter\counter.sim\sim_1\behav\xsim\tb_cnt_up_down_behav.wdb
+# Log file: D:/Documents/xladis00/digital-eletronics-1/labs/06-counter/counter/counter.sim/sim_1/behav/xsim/vivado.log
+# Journal file: D:/Documents/xladis00/digital-eletronics-1/labs/06-counter/counter/counter.sim/sim_1/behav/xsim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {D:\Documents\xladis00\digital-eletronics-1\labs\06-counter\counter\counter.sim\sim_1\behav\xsim\tb_cnt_up_down_behav.wdb}
+close_sim

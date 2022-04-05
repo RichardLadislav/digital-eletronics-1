@@ -2,23 +2,13 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Tue Mar 22 13:24:15 2022
-# Process ID: 2436
+# Start of session at: Tue Mar 29 13:53:32 2022
+# Process ID: 11676
 # Current directory: D:/Documents/xladis00/digital-eletronics-1/labs/06-counter/counter
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13248 D:\Documents\xladis00\digital-eletronics-1\labs\06-counter\counter\counter.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12336 D:\Documents\xladis00\digital-eletronics-1\labs\06-counter\counter\counter.xpr
 # Log file: D:/Documents/xladis00/digital-eletronics-1/labs/06-counter/counter/vivado.log
 # Journal file: D:/Documents/xladis00/digital-eletronics-1/labs/06-counter/counter\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project D:/Documents/xladis00/digital-eletronics-1/labs/06-counter/counter/counter.xpr
 update_compile_order -fileset sources_1
-launch_simulation
-close_project
-open_project D:/Documents/xladis00/digital-eletronics-1/labs/06-counter/counter/counter.xpr
-update_compile_order -fileset sources_1
-launch_simulation
-reset_simulation -simset sim_1 -mode behavioral
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
