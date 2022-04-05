@@ -50,7 +50,8 @@ Lab 7: Richard Ladislav
     display all inputs and outputs (display the inputs at the top of the
     image, the outputs below them) at the appropriate time scale!
 
-    ![your figure]()
+    ![test ](https://user-images.githubusercontent.com/99683944/161702175-9834b44a-488c-466f-9a85-7408f0a7342a.png)
+   (screenshot simulace nie je moj vlastny, ale prevzaty od spoluziaka, kedze mi vivado az do konca hodiny hlasislo neznamy error)
 
 ### Eight-digit driver
 
