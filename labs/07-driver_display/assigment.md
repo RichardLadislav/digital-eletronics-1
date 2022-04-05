@@ -58,4 +58,5 @@ Lab 7: Richard Ladislav
     drawn on a computer or by hand. Always name all inputs, outputs,
     components and internal signals!
 
-    ![your figure]()
+    ![8bitdiplay](https://user-images.githubusercontent.com/99683944/161698971-82a6ca59-e194-42e4-8fe5-a9be696128f7.png)
+
