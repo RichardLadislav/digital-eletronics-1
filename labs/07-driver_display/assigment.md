@@ -51,7 +51,7 @@ Lab 7: Richard Ladislav
     image, the outputs below them) at the appropriate time scale!
 
     ![test ](https://user-images.githubusercontent.com/99683944/161702175-9834b44a-488c-466f-9a85-7408f0a7342a.png)
-   (screenshot simulace nie je moj vlastny, ale prevzaty od spoluziaka, kedze mi vivado az do konca hodiny hlasislo neznamy error)
+   (screenshot simulace nie je moj vlastny, ale prevzaty od spoluziaka, kedze mi vivado az do konca hodiny hlasilo neznamy error)
 
 ### Eight-digit driver
 
