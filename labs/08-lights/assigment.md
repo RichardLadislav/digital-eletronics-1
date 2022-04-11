@@ -3,8 +3,9 @@
 ### Traffic light controller
 
 1. Figure of traffic light controller state diagram. The image can be drawn on a computer or by hand. Always name all states, transitions, and input signals!
+![STATE_DIAGRAM_SEMAFOR](https://user-images.githubusercontent.com/99683944/162754140-a813feec-7c0d-4291-8bc1-cc132899992e.png)
 
-   ![your figure]()
+ 
 
 2. Listing of VHDL code of the completed process `p_traffic_fsm`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
