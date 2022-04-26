@@ -90,7 +90,9 @@ OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
   D:/Documents/xladis00/digital-eletronics-1/labs/07-driver_display/Project_DE1/Project_DE1.srcs/sources_1/new/7seg_txt.vhd
   D:/Documents/xladis00/digital-eletronics-1/labs/07-driver_display/project_1/project_1.srcs/sources_1/new/clock_enable.vhd
+  D:/Documents/xladis00/digital-eletronics-1/labs/07-driver_display/Project_DE1/Project_DE1.srcs/sources_1/new/clock_enable1.vhd
   D:/Documents/xladis00/digital-eletronics-1/labs/07-driver_display/Project_DE1/Project_DE1.srcs/sources_1/new/cnt_up_down.vhd
+  D:/Documents/xladis00/digital-eletronics-1/labs/07-driver_display/Project_DE1/Project_DE1.srcs/sources_1/new/cnt_up_down2.vhd
   D:/Documents/xladis00/digital-eletronics-1/labs/07-driver_display/Project_DE1/Project_DE1.srcs/sources_1/new/Running_txt_cntrl.vhd
   D:/Documents/xladis00/digital-eletronics-1/labs/07-driver_display/Project_DE1/Project_DE1.srcs/sources_1/new/TOP.vhd
 }

@@ -16,9 +16,9 @@ use ieee.numeric_std.all;   -- Package for arithmetic operations
 ------------------------------------------------------------
 -- Entity declaration for clock enable
 ------------------------------------------------------------
-entity clock_enable is
+entity clock_enable1 is
     generic(
-        g_MAX : natural := 10  -- Number of clk pulses to
+        g_MAX2 : natural := 10  -- Number of clk pulses to
                                -- generate one enable signal
                                -- period
     );  -- Note that there IS a semicolon between generic 
@@ -26,14 +26,14 @@ entity clock_enable is
     port(
         clk   : in  std_logic; -- Main clock
         reset : in  std_logic; -- Synchronous reset
-        ce_o  : out std_logic  -- Clock enable pulse signal
+        ce_o2  : out std_logic  -- Clock enable pulse signal
     );
-end entity clock_enable;
+end entity clock_enable1;
 
 ------------------------------------------------------------
 -- Architecture body for clock enable
 ------------------------------------------------------------
-architecture Behavioral of clock_enable is
+architecture Behavioral of clock_enable1 is
 
     -- Local counter
     signal s_cnt_local : natural;
@@ -47,13 +47,14 @@ begin
     p_clk_ena : process(clk)
     begin
         if rising_edge(clk) then    -- Synchronous process
-            if (s_cnt_local >= (g_MAX - 1)) then
+
+            if (s_cnt_local >= (g_MAX2 - 1)) then
                 s_cnt_local <= 0;   -- Clear local counter
-                ce_o        <= '1'; -- Generate clock enable pulse
+                ce_o2        <= '1'; -- Generate clock enable pulse
 
             else
                 s_cnt_local <= s_cnt_local + 1;
-                ce_o        <= '0';
+                ce_o2        <= '0';
             end if;
         end if;
     end process p_clk_ena;
