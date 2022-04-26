@@ -33,17 +33,17 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity TOP is  
     Port (
-            CLK100MHZ : in std_logic;
-            SW : in std_logic_vector(15 downto 0);
-            BTNC : in std_logic;
-            CA : out std_logic; 
-            CB : out std_logic; 
-            CC : out std_logic; 
-            CD : out std_logic; 
-            CE : out std_logic; 
-            CF : out std_logic; 
-            CG : out std_logic;
-            AN : out std_logic_vector (7 downto 0)
+            CLK100MHZ : in  std_logic;
+            SW        : in  std_logic_vector(15 downto 0);
+            BTNC      : in  std_logic;
+            CA        : out std_logic; 
+            CB        : out std_logic; 
+            CC        : out std_logic; 
+            CD        : out std_logic; 
+            CE        : out std_logic; 
+            CF        : out std_logic; 
+            CG        : out std_logic;
+            AN        : out std_logic_vector (7 downto 0)
             
      );
 end TOP;
