@@ -27,7 +27,7 @@ K vývoji kódu jsme použili vývojové prostředí Vivado 2020. Naším cílem
 
 ## Popis hardwaru
 
-K realizaci projektu využijeme programovatelnou desku Nexys A7-50T. Na desce využijeme osm 7 segmentových displejů **(1)** a pět tlačítek **(5)**. Deska se napájí a programuje micro USB kabelem **(3)** připojeným k počítači. Vývojové prostředí Vivado 2020 nám umožňuje program zkompilovat a nahrát do desky.
+K realizaci projektu využijeme programovatelnou desku Nexys A7-50T. Na desce využijeme osm 7 segmentových displejů **(1)** a pět tlačítek **(2)**. Deska se napájí a programuje micro USB kabelem **(3)** připojeným k počítači. Vývojové prostředí Vivado 2020 nám umožňuje program zkompilovat a nahrát do desky.
 
 ![nexys](images/nexys-a7-50t.jpg)
 
