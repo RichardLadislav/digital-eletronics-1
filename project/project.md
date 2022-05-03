@@ -51,10 +51,15 @@ Při vytváření jednotlivých písmen jsme se inspirovali níže přiloženým
 
 ### ![Running_txt_cntrl](Projekt_DE1/Project_DE1.srcs/sources_1/new/Running_txt_cntrl.vhd)
 
+Tento modul byl předpřipraven na State Machine a rotaci zaplého 7seg displeje ale jelikož náš návrh State Machine nebyl funkční byl modul předělán pouze na rotaci, alternativní rozpracované řešení je ukázáno v sekci [Reference](#references).
+
+Podle hodnoty signálu s_cnt skterý se s modulu cnt_up_down inkrementuje se ve switchi rozhodne jaký z osmi 7seg displejů bude zapnutý, toto střídání probíhá dostatečne rychle aby se lidskému oku jevilo všech osm displejů naráz zapnuto. Zároveň při rosvícení každého jednotlivého displeje se z dataX_i nahraje aktuální hodnota (tato hodnota se měla měnit podle rotace textu po diplejích) do s_txt. Tato hodnota v s_txt se pomocí modulu 7seg_txt převede na odpovídající znak pro 7seg displej. Je zde i možnost reset, toto se provádí pomocí signálu reset v hodnotě 1 (zmáčknutí prostředního žlutého tlačítka na fyzické desce), toto zppůsoví že svítí první z osmi 7seg displejů a jsou na něm zobrazeny data v signálu data0_i.
 
 ### ![7seg_txt](Projekt_DE1/Project_DE1.srcs/sources_1/new/7seg_txt.vhd)
 
+Tento modul je upravená komipe modulul ze cvičení 07-display_driver.
 
+Na zálkadě hodnoty signálu txt_i se ve switchi vybere hodnota odpovídající znaku na 7seg displaji a nahraje se do seg_o.
 
 ### ![cnt_up_down](Projekt_DE1/Project_DE1.srcs/sources_1/new/cnt_up_down.vhd)
 
@@ -83,7 +88,7 @@ Write your text here
 Vytyčených cílů se nám bohužel nepodařilo dosáhnout. Na 7 segmentovém displeji jsme zobrazili text "*de1Hello*", avšak nepodařilo se nám zprovoznit posouvání textu.
 Požadovaného výsledku jsme nedosáhli z důvodu chyby v základním designu který nám zabral hodně času na implementaci kde námi navržená State Machine nebyla schopna správné rotace. Zjištění chyby bylo příliž pozdě na opravu celého projektu do daného termínu odevzdání.
 
-Soubor s rozpracovaným novým designem je k nahlédnutí ![zde](Projekt_DE1/Project_DE1.srcs/sources_1/new/...)
+Soubor s rozpracovaným novým designem je k nahlédnutí ![zde](Projekt_DE1/Project_DE1.srcs/sources_1/new/...).
 
 <a name="discussion"></a>
 
