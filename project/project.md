@@ -49,17 +49,18 @@ Při vytváření jednotlivých písmen jsme se inspirovali níže přiloženým
 
 ## Popis VHDL modulů a simulace
 
-### ![7seg_txt](Projekt_DE1/Project_DE1.srcs/sources_1/new/7seg_txt.vhd)
-
-
 ### ![Running_txt_cntrl](Projekt_DE1/Project_DE1.srcs/sources_1/new/Running_txt_cntrl.vhd)
+
+
+### ![7seg_txt](Projekt_DE1/Project_DE1.srcs/sources_1/new/7seg_txt.vhd)
 
 
 
 ### ![cnt_up_down](Projekt_DE1/Project_DE1.srcs/sources_1/new/cnt_up_down.vhd)
 
+Tento modul je kopie modulu ze cvičení 06-counter.
 
-
+Na základě hodinového signálu clk se signál s_cnt_local navyšuje o 1, je možnost přičítaní vyresetovat signálem reset s hodnotou 1, pomocí sigálu cnt_up_i lze změnit s přičítání na odečítání. Tento modul má výstup cnt_o ve kerém je nastavena aktuální hodnota s_cnt_local.
 
 <a name="top"></a>
 
