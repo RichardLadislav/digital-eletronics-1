@@ -90,7 +90,7 @@ https://youtu.be/I_q2I7c8m2M
 Vytyčených cílů se nám bohužel nepodařilo dosáhnout. Na 7 segmentovém displeji jsme zobrazili text "*de1Hello*", avšak nepodařilo se nám zprovoznit posouvání textu.
 Požadovaného výsledku jsme nedosáhli z důvodu chyby v základním designu který nám zabral hodně času na implementaci kde námi navržená State Machine nebyla schopna správné rotace. Zjištění chyby bylo příliž pozdě na opravu celého projektu do daného termínu odevzdání.
 
-Soubor s rozpracovaným novým designem je k nahlédnutí ![zde](Projekt_DE1/Project_DE1.srcs/sources_1/new/...).
+Soubor s rozpracovaným novým designem je k nahlédnutí ![zde](display_driver.vhd).
 
 <a name="discussion"></a>
 
