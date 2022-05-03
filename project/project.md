@@ -81,7 +81,7 @@ Následně jsme propojili CLK100MHZ s vnitřím signálem VHDL kódu clk, BTNC n
 
 ## Video
 
-![prezentace](Projekt_DE1/Project_DE1.srcs/sources_1/new/prezentace.mp4)
+https://youtu.be/I_q2I7c8m2M
 
 <a name="references"></a>
 
