@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue May  3 13:24:10 2022
+# Process ID: 4644
+# Current directory: D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9440 D:\Documents\xladis00\digital-eletronics-1\project\Projekt_DE1\Project_DE1.xpr
+# Log file: D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1/vivado.log
+# Journal file: D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1/Project_DE1.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Documents/xladis00/digital-eletronics-1/project' since last save.
+WARNING: [Project 1-312] File not found as 'D:/Documents/xladis00/digital-eletronics-1/project/labs/07-driver_display/project_1/project_1.srcs/sources_1/new/clock_enable.vhd'; using path 'D:/Documents/xladis00/digital-eletronics-1/labs/07-driver_display/project_1/project_1.srcs/sources_1/new/clock_enable.vhd' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'D:/Documents/xladis00/digital-eletronics-1/project/labs/07-driver_display/project_1/project_1.srcs/sources_1/new/clock_enable.vhd'; using path 'D:/Documents/xladis00/digital-eletronics-1/labs/07-driver_display/project_1/project_1.srcs/sources_1/new/clock_enable.vhd' instead.
+WARNING: [Project 1-312] File not found as 'D:/Documents/xladis00/digital-eletronics-1/project/labs/07-driver_display/project_1/project_1.srcs/sources_1/new/clock_enable.vhd'; using path 'D:/Documents/xladis00/digital-eletronics-1/labs/07-driver_display/project_1/project_1.srcs/sources_1/new/clock_enable.vhd' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/APPZ/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+file mkdir D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1/Project_DE1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1/Project_DE1.srcs/sim_1/new/tb_Running_txt_cntrl.vhd w ]
+add_files -fileset sim_1 D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1/Project_DE1.srcs/sim_1/new/tb_Running_txt_cntrl.vhd
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue May  3 13:33:58 2022] Launched synth_1...
+Run output will be captured here: D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1/Project_DE1.runs/synth_1/runme.log
+[Tue May  3 13:33:58 2022] Launched impl_1...
+Run output will be captured here: D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1/Project_DE1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4 -scripts_only
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4 -scripts_only
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4 -scripts_only
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4 -scripts_only
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  3 13:37:39 2022...

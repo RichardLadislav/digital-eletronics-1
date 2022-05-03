@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue May  3 13:41:26 2022
+# Process ID: 4148
+# Current directory: D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1/Project_DE1.runs/synth_1
+# Command line: vivado.exe -log TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP.tcl
+# Log file: D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1/Project_DE1.runs/synth_1/TOP.vds
+# Journal file: D:/Documents/xladis00/digital-eletronics-1/project/Projekt_DE1/Project_DE1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP.tcl -notrace
