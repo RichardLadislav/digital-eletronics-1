@@ -2,9 +2,9 @@
 
 ### Členové týmu
 
-* Radim Macho (responsible for xxx)
-* Richard Ladislav (responsible for xxx)
-* Vilém Pecháček (responsible for xxx)
+* Radim Macho
+* Richard Ladislav
+* Vilém Pecháček
 
 ### Obsah
 
@@ -21,7 +21,7 @@
 ## Cíle projektu
 
 Cílem našeho projektu bylo naprogramovat běžící text na 7 segmentových displejích programovatelné desky Nexys A7-5OT pomocí jazyka VHDL. 
-K vývoji kódu jsme použili vývojové prostředí Vivado 2020. Naším cílem bude zobrazení slova "*de1 Hello*" pomocí osmi 7 segmentových displejů. Slovo mělo defaultně písmeno po písmenu přeblíkavat na displeji směrem zprava doleva. Docíli se tak efektu "běžícího" textu. Do programu jsme implementovali možnost restartu textu, kdy po stisknutí prostředního tlačítka na desce dojde k navrácení slova do počátečního stavu.
+K vývoji kódu jsme použili vývojové prostředí Vivado 2020. Naším cílem bude zobrazení slova "*de1Hello*" pomocí osmi 7 segmentových displejů. Slovo mělo defaultně písmeno po písmenu rotovat na displeji směrem zprava doleva. Docílí se tak efektu "běžícího" textu. Do programu je v plánu implementovat funkci restartu textu, kdy po stisknutí prostředního tlačítka na desce dojde k navrácení slova do počátečního stavu.
 
 <a name="hardware"></a>
 
@@ -67,10 +67,17 @@ Write your text here
 
 ## Diskuze o výsledcích
 
-Vytyčených cílů se nám bohužel nepodařilo dosáhnout. Na 7 segmentovém displeji jsme zobrazili slova "*de1 Hello*", avšak nepodařilo se nám zprovoznit posouvání textu. Proč? Aspoň máme reset no ne?
+Vytyčených cílů se nám bohužel nepodařilo dosáhnout. Na 7 segmentovém displeji jsme zobrazili text "*de1Hello*", avšak nepodařilo se nám zprovoznit posouvání textu.
+Požadovaného výsledku jsme nedosáhli z důvodu chyby v základním designu který nám zabral hodně času na implementaci kde námi navržená State Machine nebyla schopna správné rotace. Zjištění chyby bylo příliž pozdě na opravu celého projektu do daného termínu odevzdání.
+
+Soubor s rozpracovaným novým designem je k nahlédnutí ![zde](Projekt_DE1/Project_DE1.srcs/sources_1/new/...)
 
 <a name="discussion"></a>
+
 ## Reference
+odkazy na starsi cvika?
+
+
 >>smazat : slouží pro odkazy na kód?
 1. https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
 2. https://steamcommunity.com/sharedfiles/filedetails/?id=1701428356
