@@ -49,13 +49,25 @@ Při vytváření jednotlivých písmen jsme se inspirovali níže přiloženým
 
 ## Popis VHDL modulů a simulace
 
-Write your text here.
+### ![7seg_txt](Projekt_DE1/Project_DE1.srcs/sources_1/new/7seg_txt.vhd)
+
+
+### ![Running_txt_cntrl](Projekt_DE1/Project_DE1.srcs/sources_1/new/Running_txt_cntrl.vhd)
+
+
+
+### ![cnt_up_down](Projekt_DE1/Project_DE1.srcs/sources_1/new/cnt_up_down.vhd)
+
+
+
 
 <a name="top"></a>
 
 ## Popis TOPu a simulace
 
-Write your text here.
+V ![TOPu](Projekt_DE1/Project_DE1.srcs/sources_1/new/TOP.vhd) máme naportované Porty pro jednotlivé segmenty 7seg displaye (CA až CG), clk CLK100MHZ což je signál generovaný samotnou deskou Nexys A7 50T, BTNC je prostřední žluté tlačítko na desce a AN což je vektor označující anody 8 7seg displejů.
+
+Následně jsme propojili CLK100MHZ s vnitřím signálem VHDL kódu clk, BTNC na reset, jednotlivé segmenty CX na odpovídajíci seg_o(X), AN na signál dig_o a do data0_i až data7_i jsme naháli hodnoty které se následně v ![7seg_txt.vhd](Projekt_DE1/Project_DE1.srcs/sources_1/new/7seg_txt.vhd) převedou na konkrétnní znaky zobrazené na displaji.
 
 <a name="video"></a>
 
@@ -75,9 +87,7 @@ Soubor s rozpracovaným novým designem je k nahlédnutí ![zde](Projekt_DE1/Pro
 <a name="discussion"></a>
 
 ## Reference
-odkazy na starsi cvika?
 
-
->>smazat : slouží pro odkazy na kód?
 1. https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
 2. https://steamcommunity.com/sharedfiles/filedetails/?id=1701428356
+3. Kurz: Digitální elektronika 1 (BPC-DE1 21/22L)
