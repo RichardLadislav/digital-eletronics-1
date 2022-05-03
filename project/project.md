@@ -55,6 +55,8 @@ Tento modul byl předpřipraven na State Machine a rotaci zaplého 7seg displeje
 
 Podle hodnoty signálu s_cnt skterý se s modulu cnt_up_down inkrementuje se ve switchi rozhodne jaký z osmi 7seg displejů bude zapnutý, toto střídání probíhá dostatečne rychle aby se lidskému oku jevilo všech osm displejů naráz zapnuto. Zároveň při rosvícení každého jednotlivého displeje se z dataX_i nahraje aktuální hodnota (tato hodnota se měla měnit podle rotace textu po diplejích) do s_txt. Tato hodnota v s_txt se pomocí modulu 7seg_txt převede na odpovídající znak pro 7seg displej. Je zde i možnost reset, toto se provádí pomocí signálu reset v hodnotě 1 (zmáčknutí prostředního žlutého tlačítka na fyzické desce), toto zppůsoví že svítí první z osmi 7seg displejů a jsou na něm zobrazeny data v signálu data0_i.
 
+![wfrms](images/wfrms.png)
+
 ### ![7seg_txt](Projekt_DE1/Project_DE1.srcs/sources_1/new/7seg_txt.vhd)
 
 Tento modul je upravená komipe modulul ze cvičení 07-display_driver.
